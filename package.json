@@ -1,0 +1,19 @@
+{
+  "name": "homey-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "homey-cli": "./src/cli.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Felix Krause",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "homey-api": "^3.14.23"
+  }
+}
